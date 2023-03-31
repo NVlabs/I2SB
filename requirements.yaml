@@ -1,0 +1,31 @@
+name: i2sb
+channels:
+  - anaconda
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - scipy
+  - termcolor
+  - easydict
+  - ipdb
+  - pytorch==1.12
+  - torchvision==0.13
+  - tqdm
+  - scikit-learn
+  - imageio
+  - matplotlib
+  - tensorboard
+  - torchmetrics==0.9.3
+  - pip
+  - pip:
+    - prefetch_generator
+    - colored-traceback
+    - torch-ema
+    - gdown==4.6.0
+    - clean-fid==0.1.35
+    - rich
+    - lmdb
+    - wandb
