@@ -36,7 +36,7 @@ conda activate i2sb
 
 ## Download pre-trained checkpoints
 
-All checkpoints are trained with 2 nodes, each with 8 32GB V100 GPUs. Pre-trained checkpoints can be downloaded via
+All checkpoints are trained with 2 nodes, each with 8 32GB V100 GPUs. Pre-trained checkpoints and can be downloaded from [here](https://drive.google.com/drive/folders/1sgHF2FjgsAiV7doBeeOiBD8NyQhKutsG) or via
 ```bash
 bash scripts/download_checkpoint.sh $NAME
 ```
